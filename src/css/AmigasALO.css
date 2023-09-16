@@ -1,0 +1,38 @@
+.containerAmigasALO{
+    border-radius: 10px;
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    box-shadow: 0 3px 15px 1px #608467;
+}
+
+.img-listado{
+    width: 350px;
+    margin: 40px 10px;
+}
+
+.containerDescription{
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.name{
+    font-size: 1.3rem;
+    padding-bottom: 30px;
+}
+
+.status{
+    font-size: 1.3rem;
+}
+
+.description{
+    font-size: 1.1rem;
+    text-align: justify;
+}

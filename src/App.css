@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body{
+    background-color: rgb(209, 229, 225);
+    font-size: 18px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1{
+    max-width: 940px;
+    font-size: 2.5em;
+    font-family: Lato, sans-serif;
+    font-weight: 700; /*No llega a ser bold*/
+    line-height: 1.1; /*La altura de la linea, para que esten un poco mas separadas*/
+    margin: 40px 0; /*40px es el superior/inferior y el 0 es el derecho/izquierdo*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App{
+    min-height: 100vh; /*Altura minima de la aplicacion, va a tomar el 100% de la pantalla verticalmente*/
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-principal{
+    max-height: 600px;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
