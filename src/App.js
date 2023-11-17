@@ -14,6 +14,20 @@ function App() {
             empresa = 'Aston Martin F1 Team' 
             descripcion = 'Ingeniero con una amplia experiencia en la Fórmula 1. Ha desempeñado roles significativos en varios equipos de F1 a lo largo de los años. Su experiencia y conocimientos técnicos lo han convertido en una figura clave en el equipo de Aston Martin F1, donde ha contribuido al desarrollo y mejora del rendimiento de sus monoplazas.'
           />
+          
+          <AmigasALO imagen = 'papaKrack.jpg'
+          nombre = 'Lance Stroll'
+          cargo = 'Piloto' 
+          empresa = 'Aston Martin F1 Team' 
+            descripcion = 'Lance Stroll es un talentoso piloto de Fórmula 1 canadiense. Comenzó su carrera en la F1 con el equipo Williams y actualmente forma parte del equipo Aston Martin F1. A pesar de su juventud, Stroll ha demostrado ser un competidor fuerte y ha logrado destacar en varias carreras. Su habilidad para adaptarse rápidamente a diferentes condiciones de pista y su determinación en la pista lo convierten en un piloto prometedor para el futuro de la Fórmula 1.' />
+          
+          <AmigasALO imagen = 'papaKrack.jpg'
+            nombre='Pedro de la Rosa'
+            cargo='Ex Piloto'
+            empresa='Aston Martin F1 Team'
+            descripcion='Pedro de la Rosa es un ex piloto de Fórmula 1 español. Compitió en la F1 durante más de una década, representando a varios equipos, incluyendo Jaguar, McLaren y Sauber. De la Rosa es conocido por su habilidad técnica y su enfoque meticuloso en el desarrollo del automóvil. Después de retirarse de la F1, ha trabajado como piloto de pruebas y asesor técnico en varios equipos de Fórmula 1, aportando su experiencia y conocimientos en el desarrollo de los monoplazas.'
+          />
+
           <AmigasALO imagen = 'papaStroll.jpg'
             nombre = 'Lawrence Stroll'
             cargo = 'Jefe'
